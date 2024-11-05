@@ -139,6 +139,8 @@ Contributions are welcome! If you'd like to contribute, please fork the reposito
 ### License
 This project is licensed under the MIT License.
 
+---
 
+By following the steps and examples provided, you should be able to simulate basic quantum circuits, understand the trade-offs between different simulation techniques, and explore the foundational concepts of quantum mechanics. Enjoy your journey into quantum computing!
 
 
