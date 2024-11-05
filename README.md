@@ -118,8 +118,8 @@ plot_benchmarks(max_qubits=10)
 ```
 This function will generate a plot displaying the runtime for each approach, helping users see which method performs better as the system grows.
 
-#### Questions and Research
-##### Research Questions
+### Questions and Research
+#### Research Questions
 1. What are the benefits of matrix vs. tensor simulation?
   - The matrix approach is simple but scales poorly with qubit count. The tensor approach optimizes by reducing state space overhead but still faces exponential complexity.
 
