@@ -88,7 +88,7 @@ results = sim.measure(samples=1000)
 print("Measurement results:", results)
 ```
 
-#### Project Structure
+### Project Structure
 ```plaintext
 QuantumCircuitSimulator/
 ├── src/
@@ -102,15 +102,15 @@ QuantumCircuitSimulator/
 └── requirements.txt               # List of dependencies
 ```
 
-#### Examples
+### Examples
 1. Gate Operations and Measurement: The simulator allows you to apply quantum gates (e.g., Hadamard, CNOT) and perform measurements on qubits to observe the probabilistic nature of quantum states.
 2. Expectation Value Calculation: Using the simulator, you can calculate expectation values of operators. For example, you can measure the expectation of the Z operator on the first qubit, a key calculation in many quantum algorithms.
 3. Benchmarking: You can benchmark the matrix and tensor approaches to compare their performance as the qubit count increases. This is particularly useful for understanding how classical simulators handle the exponential growth of quantum state spaces.
 
-#### Benchmarking
+### Benchmarking
 The plot_benchmarks() function evaluates simulation times for different qubit counts. By comparing the matrix and tensor approaches, you can observe performance trends and limitations as the number of qubits increases.
 
-##### Running Benchmarks
+#### Running Benchmarks
 ```python
 from quantum_simulator import plot_benchmarks
 
@@ -129,14 +129,14 @@ This function will generate a plot displaying the runtime for each approach, hel
 3. How are quantum measurements simulated?
   - Measurements are computed by squaring amplitude probabilities and randomly sampling to match quantum probabilistic outcomes.
 
-#### Contributing
+### Contributing
 Contributions are welcome! If you'd like to contribute, please fork the repository and create a pull request.
-##### Guidelines
+#### Guidelines
   - Follow Python best practices.
   - Add tests for new features.
   - Ensure code is well-documented and readable.
 
-#### License
+### License
 This project is licensed under the MIT License.
 
 
