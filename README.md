@@ -1,4 +1,4 @@
-# qosf_mentorship_program2024
+# QOSF Mentorship Program2024
 Screening task to QOSF Mentorship Program 2024
 
 ## Quantum Circuit Simulator
