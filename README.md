@@ -1,9 +1,11 @@
 # QOSF Mentorship Program2024
 Screening task to QOSF Mentorship Program 2024
 
-## Quantum Circuit Simulator
+## Task #1: State Vector Simulation of Quantum Circuits
 
-Welcome to the Quantum Circuit Simulator, a Python-based project that allows for the simulation of quantum circuits using both matrix-based and tensor-based approaches. This project is designed to demonstrate fundamental principles in quantum computing, including gate operations, state vector evolution, and quantum measurement. It also offers benchmarking capabilities to evaluate performance and scalability of different simulation techniques.
+Welcome to the Quantum Circuit Simulator, a Python-based project that allows for the simulation of quantum circuits using both matrix-based and tensor-based approaches. 
+The main purpose of this project is to satisfy the first screening task that requires candidates to implement a state vectorstatevector simulator for quantum circuits from scratch. The goal is to demystify how to simulate a quantum computer and to demonstrate familiarity with quantum circuits.
+Therefore, it is designed to demonstrate fundamental principles in quantum computing, including gate operations, state vector evolution, and quantum measurement. It also offers benchmarking capabilities to evaluate performance and scalability of different simulation techniques.
 
 ### Table of Contents
 
@@ -23,7 +25,7 @@ Welcome to the Quantum Circuit Simulator, a Python-based project that allows for
 
 ### Project Overview
 
-Quantum Circuit Simulator is a project created to emulate quantum circuits on classical hardware. It serves as both a learning tool and a testing environment for simulating quantum algorithms, gate applications, and measurement outcomes. The simulator offers two methods for gate application: a **naive matrix multiplication** approach and an **advanced tensor multiplication** approach, providing an opportunity to compare efficiency and scalability between these methods.
+State Vector Simulation of Quantum Circuits is a project created to emulate quantum circuits on classical hardware. It serves as both a learning tool and a testing environment for simulating quantum algorithms, gate applications, and measurement outcomes. The simulator offers two methods for gate application: a **naive matrix multiplication** approach and an **advanced tensor multiplication** approach, providing an opportunity to compare efficiency and scalability between these methods.
 
 This simulator is designed for educational purposes, targeting users who want to explore and learn about quantum computing concepts without requiring access to quantum hardware.
 
@@ -92,7 +94,7 @@ print("Measurement results:", results)
 
 ### Project Structure
 ```plaintext
-QuantumCircuitSimulator/
+qosf_mentorship_program2024/
 ├── src/
 │   └── quantum_simulator.py       # Main code file
 ├── tests/
