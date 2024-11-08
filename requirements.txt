@@ -1,5 +1,5 @@
 numpy==1.24.3         # for numerical operations and matrix manipulation
 matplotlib==3.7.1     # for plotting benchmark results and measurement outcomes
-unittest              # for unit testing of simulator functionality
+#unittest              # for unit testing of simulator functionality
 dataclasses           # for creating simple data containers (used in QuantumGate)
 typing                # for type hinting (List, Tuple, Union)
