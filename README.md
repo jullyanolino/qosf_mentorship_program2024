@@ -52,7 +52,9 @@ Clone the repository and install dependencies.
 ```bash
 git clone https://github.com/jullyanolino/qosf_mentorship_program2024.git
 cd qosf_mentorship_program2024
-pip install -r requirements.txt
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -r requirements.txt
 ```
 
 #### Usage
