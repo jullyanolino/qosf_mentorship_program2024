@@ -51,7 +51,7 @@ Clone the repository and install dependencies.
 
 ```bash
 git clone https://github.com/jullyanolino/qosf_mentorship_program2024.git
-cd quantum-circuit-simulator
+cd qosf_mentorship_program2024
 pip install -r requirements.txt
 ```
 
