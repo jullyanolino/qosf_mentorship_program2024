@@ -75,7 +75,7 @@ python -m unittest test_quantum_simulator.py
 
 ##### Quick Code Example
 ```python
-from quantum_simulator import QuantumSimulator, QuantumGate
+from src.quantum_simulator import QuantumSimulator, QuantumGate
 
 # Initialize the simulator for 2 qubits
 sim = QuantumSimulator(2)
