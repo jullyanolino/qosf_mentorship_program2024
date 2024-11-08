@@ -50,7 +50,7 @@ To run this project, you will need:
 Clone the repository and install dependencies.
 
 ```bash
-git clone https://github.com/jullyanolino/quantum-circuit-simulator.git
+git clone https://github.com/jullyanolino/qosf_mentorship_program2024.git
 cd quantum-circuit-simulator
 pip install -r requirements.txt
 ```
